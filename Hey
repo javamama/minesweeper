@@ -1,0 +1,7 @@
+java.awt.IllegalComponentStateException: The frame is displayable.
+	at java.awt.Frame.setUndecorated(Unknown Source)
+	at Graphics.DisplayComponent.setFullScreen(DisplayComponent.java:582)
+	at Graphics.DisplayComponent.run(DisplayComponent.java:625)
+	at Graphics.DisplayComponent.start(DisplayComponent.java:612)
+	at Graphics.DisplayComponent.newGame(DisplayComponent.java:550)
+	at Graphics.DisplayComponent.main(DisplayComponent.java:642)
